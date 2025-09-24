@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(helmet());
-const allowedOrigins = ["http://localhost:3000", "https://myapp.com"];
+const allowedOrigins = ["http://localhost:3000", "https://svara-ai-frontend-ruby.vercel.app/"];
 
 app.use(
   cors({
